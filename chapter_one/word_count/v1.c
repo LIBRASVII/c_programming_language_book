@@ -21,8 +21,8 @@ int main() {
       state = IN;
       ++nw;
     }
+    printf("%d %d %d\n", nl, nw, nc);
   }
-  printf("%d %d %d\n", nl, nw, nc);
 
   return 0;
 }
